@@ -1,0 +1,8 @@
+DaoType=S2JDBC
+DefaultResourcePath=/Hakisute/src/main/resources
+DefaultRootPackage=hakisute
+DefaultSrcPath=/Hakisute/src/main/java
+ServletPath=/Hakisute
+ViewType=SA-Struts
+WebContentsRoot=src/main/webapp/
+eclipse.preferences.version=1
