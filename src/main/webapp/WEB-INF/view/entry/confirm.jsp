@@ -14,7 +14,7 @@
 <div class="content" styleId="content_entry_confirm">
 <s:form method="post" styleId="form_entry_confirm">
 <h3 styleId="h3_entry_confirm_entry_body" class="entry_heading">
-萌え語り
+萌えを吐き捨てるSNS
 </h3>
 <div class="confirm" styleId="div_entry_confirm_entry_body">
 ${f:h(entry_body)}

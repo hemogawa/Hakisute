@@ -14,7 +14,7 @@
 <div class="content" styleId="content_entry_enter">
 <s:form method="post" styleId="form_entry_enter">
 <h3 styleId="h3_entry_enter_entry_body" class="entry_heading">
-萌え語り
+萌えを吐き捨てるSNS
 </h3>
 <html:textarea property="entry_body" styleId="textarea_entry_enter_entry_body"/> <br />
 <h3 styleId="h3_entry_enter_tag_name" class="entry_heading">

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>投稿 確認</title>
+<title>投稿 完了</title>
 </head>
 <body>
 <html:errors/>
