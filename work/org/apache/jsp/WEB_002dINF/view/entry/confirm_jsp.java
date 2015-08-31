@@ -148,7 +148,7 @@ static {
       do {
         out.write("\r\n");
         out.write("<h3 styleId=\"h3_entry_confirm_entry_body\" class=\"entry_heading\">\r\n");
-        out.write("萌え語り\r\n");
+        out.write("萌えを吐き捨てるSNS\r\n");
         out.write("</h3>\r\n");
         out.write("<div class=\"confirm\" styleId=\"div_entry_confirm_entry_body\">\r\n");
         out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate("${f:h(entry_body)}", java.lang.String.class, (PageContext)_jspx_page_context, _jspx_fnmap_0, false));

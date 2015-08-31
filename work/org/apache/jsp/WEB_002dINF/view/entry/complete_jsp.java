@@ -75,7 +75,7 @@ public final class complete_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\r\n");
       out.write("<head>\r\n");
       out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\r\n");
-      out.write("<title>投稿 確認</title>\r\n");
+      out.write("<title>投稿 完了</title>\r\n");
       out.write("</head>\r\n");
       out.write("<body>\r\n");
       if (_jspx_meth_html_005ferrors_005f0(_jspx_page_context))
