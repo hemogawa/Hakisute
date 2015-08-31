@@ -17,13 +17,11 @@ package hakisute.action;
 
 import hakisute.entity.Entry;
 import hakisute.form.EntryForm;
+import hakisute.service.EntryService;
 
 import javax.annotation.Resource;
 
 import org.seasar.extension.jdbc.JdbcManager;
-import org.seasar.extension.jdbc.SqlLog;
-import org.seasar.extension.jdbc.SqlLogRegistry;
-import org.seasar.extension.jdbc.SqlLogRegistryLocator;
 import org.seasar.struts.annotation.ActionForm;
 import org.seasar.struts.annotation.Execute;
 
@@ -33,6 +31,9 @@ public class EntryAction {
 	@Resource
 	protected EntryForm entryForm;
 	public JdbcManager jdbcManager;
+
+	@Resource
+	public EntryService entryService;
 
     @Execute(validator = false)
 	public String enter() {
@@ -56,16 +57,13 @@ public class EntryAction {
 
     @Execute(input="confirm.jsp")
     public String goComplete(){
-    	SqlLogRegistry sqlLogRegistry = SqlLogRegistryLocator.getInstance();
     	Entry entry = new Entry();
     	entry.entryBody = entryForm.entry_body;
     	entry.userId = 1;
     	entry.insertDate = "0000-01-01 00:00:00";
     	entry.updateDate = "0000-01-01 00:00:00";
     	entry.deleteFlg = false;
-    	jdbcManager.insert(entry).execute();
-    	SqlLog sqlLog = sqlLogRegistry.getLast();
-    	System.out.println(sqlLog);
+    	entryService.insert(entry);
     	System.out.println(entry.entryId);
     	return "complete.jsp";
     }
