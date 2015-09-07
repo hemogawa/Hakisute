@@ -144,7 +144,7 @@ public final class enter_jsp extends org.apache.jasper.runtime.HttpJspBase
       do {
         out.write("\r\n");
         out.write("<h3 styleId=\"h3_entry_enter_entry_body\" class=\"entry_heading\">\r\n");
-        out.write("萌え語り\r\n");
+        out.write("萌えを吐き捨てるSNS\r\n");
         out.write("</h3>\r\n");
         if (_jspx_meth_html_005ftextarea_005f0(_jspx_th_s_005fform_005f0, _jspx_page_context))
           return true;
