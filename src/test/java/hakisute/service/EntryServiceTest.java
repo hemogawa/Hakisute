@@ -37,7 +37,7 @@ public class EntryServiceTest extends S2TestCase {
         assertNotNull(entryService);
     }
 
-    public void testInsert() throws Exception{
+    public void testInsertTx() throws Exception{
     	// 初期データをDBに投入
     	readXlsAllReplaceDb("EntryServiceTest_testInsert_data.xls");
 
